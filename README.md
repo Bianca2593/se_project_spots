@@ -19,3 +19,23 @@ This project is made so all the elements are displayed correctly on popular scre
 The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
   
 Good luck and have fun!
+
+**spots**
+ An image sharingsite.
+
+**Description**
+The project is a responsive website featuring a modern layout designed to display information in a visually appealing way. The core functionality is to present card-based content in a grid system. This layout is flexible and adjusts seamlessly to different screen sizes, from desktops to tablets and mobile phones. The design incorporates interactive elements like buttons, links, and hover effects to enhance the user experience.
+Grid-style image gallery showcasing various spots, with the option to like images.
+
+**Description of the technologies and techniques used**
+An overview of the technologies and techniques I have used in developing the site: 
+-HTML 
+-CSS
+-Responsive Design 
+-Favicon
+-Github
+
+
+**Deployment**
+This webpage is deployed to GitHub pages
+Link:https://bianca2593.github.io/se_project_spots/

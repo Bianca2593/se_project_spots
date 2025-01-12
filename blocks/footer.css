@@ -3,9 +3,9 @@
   }
   
   .footer__copyright {
-    width: 104px;
     height: 16px;
-    margin-left: 668px;
+    margin-left:auto;
+    margin-right: auto;
     display: flex;
     justify-content: center;
     font-family: "Poppins", "Arial", "Helvetica", sans-serif;

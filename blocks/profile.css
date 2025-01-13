@@ -71,7 +71,6 @@
 
 .profile__add-btn {
   margin-left: auto;
-  border-radius: 8px;
   font-family: "Poppins", "Arial", "Helvetica", sans-serif;
   font-size: 16px;
   color: #fcf5e5;
@@ -83,6 +82,7 @@
   width: 157px;
   height: 52px;
   padding: 0;
+  gap: 5px;
   cursor: pointer;
 }
 
@@ -108,6 +108,7 @@
   .profile__name {
     font-size: 20px;
     margin: 0 0 6px;
+    height:32px;
   }
 
   .profile__description {

@@ -39,3 +39,4 @@ An overview of the technologies and techniques I have used in developing the sit
 **Deployment**
 This webpage is deployed to GitHub pages
 Link:https://bianca2593.github.io/se_project_spots/
+My video:https://drive.google.com/file/d/1_24fwe5F-qyAD3VUHvJpFm9w5rPzaLJH/view?usp=sharing

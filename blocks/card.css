@@ -13,7 +13,7 @@
   justify-content: space-between;
 }
 
-.card__title {
+.card__text {
   margin: 0;
   font-family: "Poppins", "Arial", "Helvetica", sans-serif;
   font-weight: 500;
@@ -50,7 +50,7 @@
     line-height: 16px;
   }
 
-  .card__like-btn {
+  .card__like-button {
     width: 20px;
     height: 18px;
   }

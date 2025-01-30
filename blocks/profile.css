@@ -49,7 +49,7 @@
   opacity: 0.7;
 }
 
-.profile__edit-btn {
+.profile__edit-button {
   font-family: "Poppins", "Arial", "Helvetica", sans-serif;
   font-size: 16px;
   line-height: 1;
@@ -65,11 +65,11 @@
   cursor: pointer;
 }
 
-.profile__edit-btn:hover {
+.profile__edit-button:hover {
   opacity: 1;
 }
 
-.profile__add-btn {
+.profile__add-button {
   margin-left: auto;
   font-family: "Poppins", "Arial", "Helvetica", sans-serif;
   font-size: 16px;
@@ -88,7 +88,7 @@
   cursor: pointer;
 }
 
-.profile__add-btn:hover {
+.profile__add-button:hover {
   opacity: 0.8;
 }
 

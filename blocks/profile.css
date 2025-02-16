@@ -162,6 +162,7 @@
     width: 100%; 
     max-width: 376px; 
     margin-top:16px;
+    margin: 0 auto;
   }
 
   .profile__add-btn img {
@@ -169,4 +170,65 @@
     height: 12px;
     border:2px;
   }
+}
+
+@media screen and (max-width: 320px) {
+  .profile__avatar {
+    margin: 0 0 12px;
+    height: 80px;
+    width: 80px;
+    margin-bottom: 12px;
+    margin-right: 0;
+  }
+
+  .profile {
+    flex-direction: column;
+    max-width: 288px;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .profile__name {
+    margin-bottom: 6px;
+    font-size: 20px;
+    text-align: center;
+    max-width: 288px;
+  }
+
+  .profile__column {
+    text-align:center;
+    align-items: center;
+    margin: 0 0 20px;
+    margin-right: 0;
+  }
+
+  .profile__description {
+    margin: 0 0 32px;
+    max-width: 288px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .profile__add-btn {
+    max-width: 288px;
+    width: 100%;
+  }
+
+  .profile__section {
+    max-width: 288px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile__add-btn {
+    max-width: 288px;
+    width: 100%;
+  }
+
+  .profile__edit-btn {
+    padding: 0;
+    text-align: left;
+  }
+
 }

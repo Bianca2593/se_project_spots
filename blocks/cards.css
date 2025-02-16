@@ -1,6 +1,9 @@
 .cards {
+  max-width:1280px;
+  margin:0 auto;
   padding-top: 20px;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
+  gap:20px;
   border-bottom: 1px solid #21212166;
 }
 
@@ -24,5 +27,17 @@
   .cards {
     padding-top: 15px;  
     padding-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cards__list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 288px);
+    gap: 40px 20px;
+    justify-content: center;
   }
 }

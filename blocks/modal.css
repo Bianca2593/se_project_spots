@@ -51,6 +51,7 @@
 .modal__close-btn {
   background-color: #fff;
   background-position-x: center;
+  background-image: url(../images/Close-button.svg);
   position: absolute;
   top: 30px;
   right: 50px;

@@ -54,42 +54,39 @@
       </footer>
       <div class="modal modal_open" id="edit-modal">
         <div class="modal__container">
-          <button type="button" class="modal__close-btn">
-            <img src="./images/Close-button.svg" alt="close icon" />
-          </button>
-          <h3 class="modal__title">Edit profile</h3>
+          <button type="button" class="modal__close-btn"></button>
+          <h3 class="modal__title">Edit Profile</h3>
           <form name="edit-profile" class="modal__form" novalidate>
-            <label for="profile-name-input" class="modal__label"
-              >Name
+            <label for="profile-name-input" class="modal__label">
+              Name
               <input
                 id="profile-name-input"
                 type="text"
                 class="modal__input"
                 placeholder="Type your name"
-                required
                 minlength="2"
                 maxlength="40"
+                required
               />
-              <span
-                id="profile-name-input-error"
-                class="modal__error modal__error_visible"
-              ></span>
+              <span class="modal__error_visible" id="profile-name-input-error">
+              </span>
             </label>
-            <label for="profile-description-input" class="modal__label"
-              >Description
+            <label for="profile-description-input" class="modal__label">
+              Description
               <input
                 id="profile-description-input"
                 type="text"
                 class="modal__input"
                 placeholder="Describe yourself"
-                required
                 minlength="2"
                 maxlength="200"
+                required
               />
               <span
+                class="modal__error_visible"
                 id="profile-description-input-error"
-                class="modal__error modal_error_visible"
-              ></span>
+              >
+              </span>
             </label>
             <button
               type="submit"
@@ -101,44 +98,45 @@
           </form>
         </div>
       </div>
+
       <div class="modal" id="add-card-modal">
         <div class="modal__container">
-          <button type="button" class="modal__close-btn" id="modal-close-btn">
-            <img src="./images/Close-button.svg" alt="close icon" />
-          </button>
-          <h3 class="modal__title">New post</h3>
+          <button
+            class="modal__close-btn"
+            type="button"
+            id="modal-close-btn"
+          ></button>
+          <h3 class="modal__title">New Post</h3>
           <form class="modal__form" id="add-card-form" novalidate>
-            <label for="add-card-link-input" class="modal__label"
-              >Image link
+            <label class="modal__label" for="add-card-link-input">
+              Image link
               <input
                 id="add-card-link-input"
-                name="link"
-                type="url"
                 class="modal__input"
-                placeholder="Paste the link to the picture"
+                name="link"
+                placeholder="Paste a link to the picture"
+                type="url"
                 required
               />
               <span
+                class="modal__error_visible"
                 id="add-card-link-input-error"
-                class="modal_error modal__error_visible"
               ></span>
             </label>
-            <label for="add-card-name-input" class="modal__label"
-              >Caption
+            <label class="modal__label" for="add-card-name-input">
+              Caption
               <input
                 id="add-card-name-input"
-                type="text"
                 class="modal__input"
                 name="name"
                 placeholder="Type your caption"
-                required
+                type="text"
                 minlength="2"
                 maxlength="30"
+                required
               />
-              <span
-                id="add-card-name-input-error"
-                class="modal_error modal__error_visible"
-              ></span>
+              <span class="modal__error_visible" id="add-card-name-input-error">
+              </span>
             </label>
             <button
               type="submit"
@@ -155,15 +153,11 @@
     <div class="modal" id="preview-modal">
       <div class="modal__container modal__container_type_preview">
         <button
-          type="button"
           class="modal__close-btn modal__close-btn_type_preview"
+          type="button"
         ></button>
-        <img
-          src=" https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/spots/7-photo-by-griffin-wooldridge-from-pexels.jpg"
-          alt="preview modal"
-          class="modal__image"
-        />
-        <p class="modal__caption">Golden Gate bridge</p>
+        <img class="modal__image" src="" alt="" />
+        <p class="modal__caption"></p>
       </div>
     </div>
     <script defer src="./scripts/index.js"></script>

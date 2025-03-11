@@ -78,5 +78,5 @@ const enableValidation = (config) => {
   });
 };
 
-// Initialize validation
+
 enableValidation(settings);

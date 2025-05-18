@@ -633,7 +633,7 @@
 }
 
 .card__like-button {
-  background-image: url(29a25a3c4fb6b6e4a7d6.svg);
+  background-image: url(980a536735fbd2133d25.svg);
   opacity: 40%;
   width: 23px;
   height: 20px;
@@ -651,13 +651,13 @@
 }
 
 .card__like-button_liked {
-  background-image: url(f9b5881bc5f3c3308e3b.svg);
+  background-image: url(a172f2aece1c23f68f28.svg);
   opacity: 1;
   background-color: transparent;
 }
 
 .card__like-button_liked:hover {
-  background-image: url(29c9644b290e6cb15b35.svg);
+  background-image: url(ab5c26dab06dbb38f27b.svg);
   opacity: 1;
 }
 
@@ -667,7 +667,7 @@
   right: 10px;
   height: 32px;
   width: 32px;
-  background-image: url(167e6c18eec3e267c052.svg);
+  background-image: url(8b9fe9f7e356564220f8.svg);
   border: none;
   background-size: contain;
   background-position: center;
@@ -677,7 +677,7 @@
 }
 
 .card__delete-button:hover {
-  background-image: url(e4cebc3ebac210f37a8c.svg);
+  background-image: url(dc206f2607f2f5f4a9e3.svg);
 }
 
 @media screen and (max-width: 627px) {
@@ -776,7 +776,7 @@
   background-color: #ffffff;
   top: 32px;
   right: 50px;
-  background-image: url(a8e301eb86866b1df117.svg);
+  background-image: url(886fef1922223163c214.svg);
 }
 
 .modal__close-button:hover {
@@ -789,7 +789,7 @@
   top: -5px;
   right: -45px;
   background-color: transparent;
-  background-image: url(53f0bab7ec2e970778f9.svg);
+  background-image: url(2a6d443422ae27e8b633.svg);
 }
 
 .modal__cancel-button {
@@ -924,7 +924,7 @@
   background-color: transparent;
   top: 0;
   right: -50px;
-  background-image: url(53f0bab7ec2e970778f9.svg);
+  background-image: url(2a6d443422ae27e8b633.svg);
   cursor: pointer;
 }
 
